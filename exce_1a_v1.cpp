@@ -1,9 +1,15 @@
 // Main of exce_1a_v1
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int number;
+
+    cout << "Enter an integer: ";
+    cin >> number;
+
+    cout << "You entered " << number;
+    return 0;
 }
-// new command
